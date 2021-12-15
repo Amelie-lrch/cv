@@ -121,10 +121,12 @@ border: 50px ;
     }
 
 .nom , .mail ,.mess { border-width: 5px; border-style: groove; border-color: black; 
-background-color: rgb(211, 250, 248);}
+background-color: rgb(211, 250, 248);
+margin-bottom: 10px;}
 
 .env{ border-width: 5px; border-style: groove; border-color: rgb(211, 212, 219);
-background-color: rgb(74, 137, 209); margin-bottom: 25px;}
+background-color: rgb(74, 137, 209); margin-bottom: 25px;
+margin-top: 5px;}
 
 .am { float: right; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 font-style: italic;  margin-right: 10px; margin-top: 10px;   }
