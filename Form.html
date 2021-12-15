@@ -31,16 +31,26 @@
 
         <img class="envelop" src="p.gif" >
 
-        <form>
-            <input class="nom" type="text" placeholder="Nom-Prénom"/>
-            <br>
-            <input class="mail " type="email" placeholder="email" />
-            <br>
-            <input class="mess" type="textmessage" placeholder="votre message"/>
-            <br>
-            <button class="env" type="submit" > Envoyer  </button>
-            
-        </form>
+        <form
+        action="https://formspree.io/f/moqrqkyj"
+        method="POST"
+      >
+        <label>
+            <label>
+                 
+                 <textarea class="nom" name="name" placeholder="Votre Nom - Prénom"></textarea>
+               </label>
+
+         
+          <input class="mail" type="email" name="_replyto" placeholder="Votre email">
+        </label>
+        <label>
+         
+          <textarea class="mess" name="message" placeholder="Votre Message"></textarea>
+        </label>
+        <!-- your other form fields go here -->
+        <button  class="env" type="submit">Envoyer</button>
+      </form>
 <br>
 
 <br>
