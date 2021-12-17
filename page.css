@@ -3,6 +3,7 @@
  font-family: 'Roboto', sans-serif;
  font-size: 25px;
 }
+
 h1 { 
     display: flex;
     justify-content: center;
@@ -12,85 +13,104 @@ h1 {
     display: flex;
     justify-content: center;
     margin-top: 0px;
+    margin-bottom: 60px;
 }
  
 .profil {
     border-radius: 50%;
-    margin-left: 610px;
-    margin-bottom: 15px;}
-
-nav  ul li {
+   float: left;
+   margin-left: 400px;
+   width: 300px;border: 300PX;
+}
+nav  {
     display: inline;
-    margin: 8px;}
+    margin: 8px;
+   
+}
 
-nav {text-align: center;}
+nav {  text-align: center;}
 
-a{ text-decoration: none;
-    color: rgb(44, 34, 189);}
+.info {
+    width: 100px; border: 100px;
+    float: right;
+    margin-right: 600px;
+    margin-top: 100px;
+}
 
-a:hover { color:rgb(128, 13, 17);}
+ a{ text-decoration: none;
+    color: blanchedalmond;
+}
+
+  a:hover { color:rgb(214, 27, 67)
+}
+
+.name { color: blue;text-decoration: none ;}
+
+.name:hover {color: crimson;}
+
+.liens { color: darkblue;}
+
+.liens:hover{color: darkred;}
+
+
+  
 
 a {font-size: 30px;}
 
- .page { background-color: rgb(233, 157, 252);}
+main { background-color: rgb(243, 213, 255);}
 
-.competence { text-align: center;
-    margin-left: 50px;
-margin-top: 50px ; }
+.titrec { text-align: auto ; margin-top: 450px; margin-bottom: 80px; }
+.competence { margin-left: 200px;  }
 
-.qualite{ text-align: center;
-    margin-top: 20px;}
-
-.titre {text-align: center;
- margin-left: 50px;
-margin-top: 40px;}
-
-ul { list-style-type:none ;}
-
-
-.color { color: rgb(51, 11, 83);}
-
-
-.cont {
-margin-top: 60px; }
-
-.taille , .tailles  { width: 40PX;
-border: 50px ;}
+.floatd { float: right; margin-top: 211px; margin-right: 30px; }
 
 
 
-    a {text-transform: capitalize; padding: 10px;}
+.titre , .qualiter {float: left;}
+
+
+
+.color { color: rgb(10, 103, 190);}
+
+
+
+    a { 
+        text-transform: capitalize; padding: 10px;
+    }
 
     .formations {
         display: flex;
-        justify-content: center;}
+        justify-content: center;
+    }
 
-    h2 { 
-        text-align: center; padding: 20px; font-size: 35px;}
-
-    .exp pre , .exp li , .exp p{ 
-       display: flex;
-       justify-content: center;}
+    
+   
 
     .img1 { 
-        margin-left: 410px;
+        margin-left: 500px;
         margin-bottom: 50px;
         margin-top: 40px;
         padding: 15px;
-        border-width: 10px; border-style: groove; border-color:black ;}
+        border-width: 10px; border-style: groove; border-color: black ;
+    }
 
     .img2 {
         margin-left: 370px;
         margin-bottom: 15px;
-        padding: 15px;}
+        padding: 15px;
+    }
 
     .nom , .mail , .mess , .env { 
         display: block;
         justify-content: center;
-        margin-left: 650px;}
+        margin-left: 650px;
+      
+        
+    }
 
     .mess { 
-        padding: 20px; }
+        padding: 20px;
+    }
 
     .marg { margin-bottom: 50px;  font-size: 30px;}
 
@@ -113,18 +133,32 @@ margin-top: 5px;}
 .am { float: right; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 font-style: italic;  margin-right: 10px; margin-top: 10px;   }
 
-.linkedin { margin-left: 560px;}
+.linkedin { margin-left: 560px;  padding: none ;}
 
 
  
  footer img { width: 40PX;
     border: 50px ;
-margin-left: 160px; 
+   
   }
 
-    footer h2 { text-align: center; padding: 20px;
+.linkedin { display: flex;
+justify-content: center; margin-right: 550px; }
+
+.taille { margin-left: 170px;}
+
+.tailless {margin-left: 220px;}
+
+
+
+.email { margin-left: 60px; }
+
+
+
+    footer h2 { text-align: center; 
     }
 
+    
     .cont {   columns: 170px;}
 
     footer .tailles { width: 40PX;
@@ -138,10 +172,49 @@ margin-left: 160px;
 
 
 
-progress
- { background-color: lawngreen;}
+    .progress{  background-color:rgb(29, 53, 158); } 
 
  .p2 { text-align: right; padding: 10px;}
 
  .name { padding-top: 50px; font-size: 30px;}
-    
+
+ 
+
+.competence h3 { display: flex;
+    justify-content: left;}
+
+progress { float: right; margin-right: 300px; }
+
+.mes{ display: flex;
+    justify-content: left; margin-top: 80px;}
+
+
+.qualiter{ display: flex;
+justify-content: left;}
+
+.top  {margin-bottom: 30px;}
+
+.espace {margin-bottom: 15px;}
+
+ul li { list-style: none;}
+
+footer { background-color: black;}
+
+footer h3 , footer p , footer pre {color: blanchedalmond; font-size: 20px;}
+
+
+
+
+.taille { width: 30PX;
+    border: 40px ; 
+ }
+
+ .tailles {width: 30PX;
+    border: 40px ; }
+
+    .tailess {width: 40PX;
+        border: 50px ; }
+
+        .exp { text-align: center;}
+
+        .forma{text-align: center;}
