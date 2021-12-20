@@ -218,3 +218,46 @@ footer h3 , footer p , footer pre {color: blanchedalmond; font-size: 20px;}
         .exp { text-align: center;}
 
         .forma{text-align: center;}
+
+
+      @media(min-width: 320px) and (max-width: 600px)
+{
+    .floatd { display:none }
+
+        h1 { 
+            display: flex;
+            justify-content: center;
+        }
+        
+        .futur {
+            display: flex;
+            justify-content: center;
+            margin-top: 0px;
+            margin-bottom: 60px;
+        }
+
+        .profil {
+            border-radius: 50%;
+           float: left;
+           margin-left: 200px;
+           width: 200px;border: 200PX;
+        }
+
+        .info {
+            width: 100px; border: 100px;
+             margin-right: 150px;
+            margin-top: 50px;
+        }
+
+        .titrec { text-align: auto ; margin-top: 450px; margin-bottom: 80px; }
+
+.competence { margin-left: 50px;   }
+
+progress { padding: 10px ; 
+    width: 150px; 
+}
+
+.top  {margin-bottom: 32px;
+}
+
+progress { float: right; margin-right: 100px; }
