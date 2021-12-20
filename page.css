@@ -261,3 +261,61 @@ progress { padding: 10px ;
 }
 
 progress { float: right; margin-right: 100px; }
+ 
+ *{
+    font-family: 'Arvo', serif;
+    font-family: 'Roboto', sans-serif;}
+
+    a{ text-decoration: none;
+        color: blanchedalmond;
+    }
+    
+      a:hover { color:rgb(214, 27, 67)
+    }
+    
+    .name { color: blue;text-decoration: none ;}
+    
+    .name:hover {color: crimson;}
+    
+    .liens { color: darkblue;}
+    
+    .liens:hover{color: darkred;}
+
+    main { background-color: rgb(243, 213, 255);}
+    
+    .titre , .qualiter {float: left;}
+
+    footer img { width: 40PX;
+        border: 50px ;
+       
+      }
+    
+    .linkedin { display: flex;
+    justify-content: center; margin-right: 550px; }
+    
+    .taille { margin-left: 170px;}
+    
+    .tailless {margin-left: 220px;}
+    
+    
+    
+    .email { margin-left: 60px; }
+    
+    
+    
+        footer h2 { text-align: center; 
+        }
+    
+        
+        .cont {   columns: 170px;}
+    
+        footer .tailles { width: 40PX;
+            border: 50px ;
+        margin-left: 230px;   }
+    
+    
+        footer h3 {
+            text-align: center; margin-bottom: 30px;
+        }
+}
+ 
