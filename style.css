@@ -328,11 +328,24 @@ progress { float: right; margin-right: 100px; }
     
     .linkedin { display: flex;
     justify-content: center; margin-right: 550px; }
+      
+    .taille { margin-left: 160px;}
+    .taille {
+        width: 30PX;
+        border: 40px;}
     
-    .taille { margin-left: 170px;}
+      
+        footer .tailles {
+            width: 40PX;
+            border: 50px;
+            margin-left: 200px;
+            margin-bottom: 30px;}
+      
     
-    .tailless {margin-left: 220px;}
-    
+            .tailless {
+                display: none;}
+
+                footer pre { display: none;}
     
     
     .email { margin-left: 60px; }
