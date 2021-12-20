@@ -224,12 +224,8 @@
 
         
 
-        @media(min-width: 768px) and (max-width: 1388px)
-
-        {  
-
-
-
+       @media (min-width: 768px) and (max-width: 1388px) {
+    
     h1 { 
         display: flex;
         justify-content: center;
@@ -273,9 +269,11 @@
               
             
                     .tailless {
-                        display: none;}
+                        display: none;
+                    }
         
-                        footer pre { display: none;}
+                        footer pre { display: none;
+                        }
 
                         footer img {
                             width: 40PX;
@@ -298,202 +296,4 @@
                             margin-left: 350px;
                         }
     
-    
-        @media(min-width: 320px) and (max-width: 600px)
-    {
-    .floatd { display:none }
-
-        h1 { 
-            display: flex;
-            justify-content: center;
-        }
-        
-        .futur {
-            display: flex;
-            justify-content: center;
-            margin-top: 0px;
-            margin-bottom: 60px;
-        }
-
-        .profil {
-            border-radius: 50%;
-           float: left;
-           margin-left: 0px;
-           width: 200px;border: 200PX;
-        }
-
-        .info {
-            width: 100px; border: 100px;
-            margin-top: 50px;
-           
-        }
-
-        .titrec {
-            text-align: auto;
-            margin-top: 450px;
-            margin-bottom: 80px;
-            margin-left: 30px;
-        }
-        
-        element.style {
-            margin-left: 30px;
-        }
-
- .competence {    margin-top: 450px;
-    margin-bottom: 80px;
-       }
-
-      
-
-
- progress { padding: 10px ; 
-    width: 150px; 
- }
-
-  .top  {margin-bottom: 32px;
- }
-
-   progress { float: right; margin-right: 100px; }
-
-     *{
-    
-    font-family: 'Roboto', sans-serif;}
-
-    a{ text-decoration: none;
-        color: blanchedalmond;
-    }
-    
-      a:hover { color:rgb(214, 27, 67)
-    }
-    
-    .name { color: blue;text-decoration: none ;}
-    
-    .name:hover {color: crimson;}
-    
-    .liens { color: darkblue;}
-    
-    .liens:hover{color: darkred;}
-
-    main { background-color: rgb(243, 213, 255);}
-    
-    .titre , .qualiter {float: left;}
-
-    footer img { width: 40PX;
-        border: 50px ;
-       
-      }
-    
-    .linkedin { display: flex;
-    justify-content: center; margin-right: 550px; }
-    
-    .taille { margin-left: 160px;}
-    .taille {
-        width: 30PX;
-        border: 40px;}
-
-        footer img {
-            width: 40PX;
-            border: 50px;
-            margin-right: 170px;
-        }
-    
-      
-        footer .tailles {
-            width: 40PX;
-            border: 50px;
-            margin-left: 200px;
-            margin-bottom: 30px;}
-      
-    
-            .tailless {
-                display: none;}
-
-                footer pre { display: none;}
-
-    .email { margin-left: 60px; }
-    
-    
-    
-        footer h2 { text-align: center; 
-        }
-    
-        
-        .cont {   columns: 170px;}
-    
-        
-    
-    
-        footer h3 {
-            text-align: center; margin-bottom: 30px;
-        }
-
-    
-        .p2 { text-align: right; padding: 10px;}
-
-        .name { padding-top: 50px; font-size: 30px;}
-       
-        
-       
-       .competence h3 { display: flex;
-           justify-content: left;}
-       
-       progress { float: right; margin-right: 300px; }
-       
-       .mes{ display: flex;
-           justify-content: left; margin-top: 80px;}
-       
-       
-       .qualiter{ display: flex;
-       justify-content: left;}
-       
-       .top  {margin-bottom: 30px;}
-       
-       .espace {margin-bottom: 15px;}
-       
-       ul li { list-style: none;}
-       
-       footer { background-color: black;}
-       
-       footer h3 , footer p , footer pre {color: blanchedalmond; font-size: 20px;}
-       
-       
-       
-       
-       .taille { width: 30PX;
-           border: 40px ; 
-        }
-       
-        .tailles {width: 30PX;
-           border: 40px ; }
-       
-           .tailess {width: 40PX;
-               border: 50px ; }
-       
-               .exp { text-align: center;}
-       
-               .forma{text-align: center;}
-
-               .img1 { 
-                margin-left: 200px;
-                margin-bottom: 50px;
-                margin-top: 40px;
-                padding: 15px;
-                border-width: 10px; border-style: groove; border-color: black ;
-            }
-    
-      
-            .envelop {
-                margin-left: 350px;
-                margin-bottom: 15px;
-                padding: 15px;
-                width: 200px;
-                border: 150px;
-                border-radius: 50%;
-            }
-            .nom, .mail, .mess, .env {
-                display: block;
-                justify-content: center;
-                margin-left: 350px;
-            }
-
-}
+}   
